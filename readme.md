@@ -7,17 +7,27 @@ This repository contains various Python assignments related to Object-Oriented P
 ### 1. **Using `self`**
 - Create a class `Student` with attributes `name` and `marks`. Use the `self` keyword to initialize these values via a constructor. Add a method `display()` that prints student details.
 
+---
+
 ### 2. **Using `cls`**
 - Create a class `Counter` that keeps track of how many objects have been created. Use a class variable and a class method with `cls` to manage and display the count.
+
+---
 
 ### 3. **Public Variables and Methods**
 - Create a class `Car` with a public variable `brand` and a public method `start()`. Instantiate the class and access both from outside the class.
 
+---
+
 ### 4. **Class Variables and Class Methods**
 - Create a class `Bank` with a class variable `bank_name`. Add a class method `change_bank_name(cls, name)` that allows changing the bank name. Show that it affects all instances.
 
+---
+
 ### 5. **Static Variables and Static Methods**
 - Create a class `MathUtils` with a static method `add(a, b)` that returns the sum. No class or instance variables should be used.
+
+---
 
 ### 6. **Constructors and Destructors**
 - Create a class `Logger` that prints a message when an object is created (constructor) and another message when it is destroyed (destructor).
