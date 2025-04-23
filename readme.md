@@ -32,29 +32,47 @@ This repository contains various Python assignments related to Object-Oriented P
 ### 6. **Constructors and Destructors**
 - Create a class `Logger` that prints a message when an object is created (constructor) and another message when it is destroyed (destructor).
 
+---
+
 ### 7. **Access Modifiers: Public, Private, and Protected**
 - Create a class `Employee` with a public variable `name`, a protected variable `_salary`, and a private variable `__ssn`. Try accessing all three variables from an object of the class and document what happens.
+
+---
 
 ### 8. **The `super()` Function**
 - Create a class `Person` with a constructor that sets the name. Inherit a class `Teacher` from it, add a subject field, and use `super()` to call the base class constructor.
 
+---
+
 ### 9. **Abstract Classes and Methods**
 - Use the `abc` module to create an abstract class `Shape` with an abstract method `area()`. Inherit a class `Rectangle` that implements `area()`.
+
+---
 
 ### 10. **Instance Methods**
 - Create a class `Dog` with instance variables `name` and `breed`. Add an instance method `bark()` that prints a message including the dog's name.
 
+---
+
 ### 11. **Class Methods**
 - Create a class `Book` with a class variable `total_books`. Add a class method `increment_book_count()` to increase the count when a new book is added.
+
+---
 
 ### 12. **Static Methods**
 - Create a class `TemperatureConverter` with a static method `celsius_to_fahrenheit(c)` that returns the Fahrenheit value.
 
+---
+
 ### 13. **Composition**
 - Create a class `Engine` and a class `Car`. Use composition by passing an `Engine` object to the `Car` class during initialization. Access a method of the `Engine` class via the `Car` class.
 
+---
+
 ### 14. **Aggregation**
 - Create a class `Department` and a class `Employee`. Use aggregation by having a `Department` object store a reference to an `Employee` object that exists independently of it.
+
+---
 
 ### 15. **Method Resolution Order (MRO) and Diamond Inheritance**
 - Create four classes:
@@ -63,20 +81,32 @@ This repository contains various Python assignments related to Object-Oriented P
   - `D` that inherits from both `B` and `C`.
   Create an object of `D` and call `show()` to observe MRO.
 
+---
+
 ### 16. **Function Decorators**
 - Write a decorator function `log_function_call` that prints "Function is being called" before a function executes. Apply it to a function `say_hello()`.
+
+---
 
 ### 17. **Class Decorators**
 - Create a class decorator `add_greeting` that modifies a class to add a `greet()` method returning "Hello from Decorator!". Apply it to a class `Person`.
 
+---
+
 ### 18. **Property Decorators: `@property`, `@setter`, and `@deleter`**
 - Create a class `Product` with a private attribute `_price`. Use `@property` to get the price, `@price.setter` to update it, and `@price.deleter` to delete it.
+
+---
 
 ### 19. **`callable()` and `__call__()`**
 - Create a class `Multiplier` with an `__init__()` to set a factor. Define a `__call__()` method that multiplies an input by the factor. Test it with `callable()` and by calling the object like a function.
 
+---
+
 ### 20. **Creating a Custom Exception**
 - Create a custom exception `InvalidAgeError`. Write a function `check_age(age)` that raises this exception if `age < 18`. Handle it with `try...except`.
+
+---
 
 ### 21. **Make a Custom Class Iterable**
 - Create a class `Countdown` that takes a start number. Implement `__iter__()` and `__next__()` to make the object iterable in a for-loop, counting down to 0.
